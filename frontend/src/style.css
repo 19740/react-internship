@@ -1,0 +1,100 @@
+.App{
+    height: 100vh;
+    padding: 0px, 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+}
+
+.book{
+    flex:1;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(193, 130, 215);
+    color: white;
+    cursor: pointer;
+}
+
+.form {
+
+    background-color: rgb(225, 244, 249);
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(55, 214, 92, 0.4),0 4px 8px 0 rgba(111, 157, 212, 0.4);
+    width: 500px;
+    height: 510px;
+    overflow: auto;
+  }
+
+  .form2 {
+
+    background-color: rgb(225, 244, 249);
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(55, 214, 92, 0.4),0 4px 8px 0 rgba(111, 157, 212, 0.4);
+
+  }
+
+table{
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 10px;
+}
+th, td  {
+padding: 8px;
+border-bottom: 1px solid #DDD;
+}
+th  {
+    background-color: #96D4D4;
+  }
+
+
+  .addHome{
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    background-color: rgb(130, 215, 182);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.details{
+    padding: 10px;
+    border: none;
+    background-color: rgb(221, 173, 238);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.details:hover {
+    background-color: rgb(186, 117, 211);
+  }
+
+.update{
+    padding: 10px;
+    border: none;
+    background-color: rgb(221, 173, 238);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.update:hover {
+    background-color: rgb(186, 117, 211);
+  }
